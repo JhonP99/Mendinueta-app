@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderComponent } from './infrastructure/components/view/slider/slider.component';
 import { RouletteComponent } from './infrastructure/components/view/roulette/roulette.component';
 import { ServicesComponent } from './infrastructure/components/view/services/services.component';
+import { GridComponent } from './infrastructure/components/view/grid/grid.component';
+import { FormComponent } from './infrastructure/components/view/form/form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ServicesComponent } from './infrastructure/components/view/services/ser
     HeaderComponent,
     SliderComponent,
     RouletteComponent,
-    ServicesComponent
+    ServicesComponent,
+    GridComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
