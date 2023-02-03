@@ -1,0 +1,47 @@
+.container, .section-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-container {
+  padding-top: 5%;
+  width: 65%;
+}
+
+.services, .text {
+  font-family: Raleway, sans-serift;
+}
+
+.text {
+  display: block;
+  line-height: 30px;
+  padding: 5% 0;
+}
+
+.services {
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+
+
+.cardsSection {
+  align-content: center;
+  background-color: rgb(191, 191, 191);
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  width: 95%;
+}
+
+.card {
+  background-color: white;
+  height: 600px;
+  margin: 0 2%;
+  width: 25%;
+}
+
+
