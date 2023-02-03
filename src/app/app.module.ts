@@ -8,6 +8,7 @@ import { FooterComponent } from './infrastructure/components/interactive/footer/
 import { HeaderComponent } from './infrastructure/components/interactive/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderComponent } from './infrastructure/components/view/slider/slider.component';
+import { RouletteComponent } from './infrastructure/components/view/roulette/roulette.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SliderComponent } from './infrastructure/components/view/slider/slider.
     StartComponent,
     FooterComponent,
     HeaderComponent,
-    SliderComponent
+    SliderComponent,
+    RouletteComponent
   ],
   imports: [
     BrowserModule,

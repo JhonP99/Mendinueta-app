@@ -1,0 +1,28 @@
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-container {
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+}
+
+.portafolio-text, .fotografico-text {
+  font-family: Raleway, sans-serif;
+  font-size: 4rem;
+}
+
+.fotografico-text {
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.description {
+  font-family: Raleway Light, sans-serift;
+  line-height: 35px;
+  width: 600px;
+}
