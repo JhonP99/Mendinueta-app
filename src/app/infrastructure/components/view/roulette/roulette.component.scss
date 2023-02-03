@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title, .description {
+  font-family: Raleway Light, sans-serift;
+}
+
+.title {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 35px;
+  width: 60%;
+}

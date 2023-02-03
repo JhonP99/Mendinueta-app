@@ -9,6 +9,7 @@ import { HeaderComponent } from './infrastructure/components/interactive/header/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderComponent } from './infrastructure/components/view/slider/slider.component';
 import { RouletteComponent } from './infrastructure/components/view/roulette/roulette.component';
+import { ServicesComponent } from './infrastructure/components/view/services/services.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RouletteComponent } from './infrastructure/components/view/roulette/rou
     FooterComponent,
     HeaderComponent,
     SliderComponent,
-    RouletteComponent
+    RouletteComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
