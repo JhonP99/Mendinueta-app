@@ -1,8 +1,8 @@
-.body-header{
+.body-header {
   align-content: center;
   background-color: rgb(0,0,0);
   display: flex;
-  height: 18%;
+  height: 120px;
   justify-content: space-between;
 }
 
@@ -10,7 +10,6 @@
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  width: 200px;
 }
 
 .logo, img {

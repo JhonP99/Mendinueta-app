@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { StartComponent } from "./infrastructure/components/view/start/start.component";
+import { StartComponent } from "./infrastructure/components/interactive/start/start.component";
 
 const routes: Routes = [
-  { path: '', component: StartComponent }
+  { path: 'start', component: StartComponent },
+  { path: '', pathMatch: "full", redirectTo: 'start'}
 ];
 
 @NgModule({

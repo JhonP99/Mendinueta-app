@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StartComponent } from './infrastructure/components/view/start/start.component';
+import { StartComponent } from './infrastructure/components/interactive/start/start.component';
 import { FooterComponent } from './infrastructure/components/interactive/footer/footer.component';
 import { HeaderComponent } from './infrastructure/components/interactive/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
