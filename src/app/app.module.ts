@@ -12,6 +12,10 @@ import { RouletteComponent } from './infrastructure/components/view/roulette/rou
 import { ServicesComponent } from './infrastructure/components/view/services/services.component';
 import { GridComponent } from './infrastructure/components/view/grid/grid.component';
 import { FormComponent } from './infrastructure/components/view/form/form.component';
+import { WeddingComponent } from './infrastructure/components/interactive/wedding/wedding.component';
+import { FifteenComponent } from './infrastructure/components/interactive/fifteen/fifteen.component';
+import { ContactComponent } from './infrastructure/components/interactive/contact/contact.component';
+import { CardComponent } from './infrastructure/components/view/card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { FormComponent } from './infrastructure/components/view/form/form.compon
     RouletteComponent,
     ServicesComponent,
     GridComponent,
-    FormComponent
+    FormComponent,
+    WeddingComponent,
+    FifteenComponent,
+    ContactComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
