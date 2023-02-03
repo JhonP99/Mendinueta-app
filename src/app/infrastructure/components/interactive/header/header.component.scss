@@ -1,0 +1,47 @@
+.body-header{
+  align-content: center;
+  background-color: rgb(0,0,0);
+  display: flex;
+  height: 18%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.logo, img {
+  width: 200px;
+}
+
+.nav-menu {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.navBar, ul {
+  display: flex;
+  flex-direction: row;
+  font-family: "AvenirNext LT Pro Bold";
+  list-style: none;
+  padding-right: 13rem;
+}
+
+.navBar, li,a {
+  color: rgb(255,255,255);
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  text-decoration: none;
+}
+
+.navBar, li, a:hover {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.64);
+  //text-decoration: underline;
+  transition: all, 0.5s;
+}
