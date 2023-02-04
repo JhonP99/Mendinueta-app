@@ -1,5 +1,22 @@
-<div>
-  <p>Slider</p>
+<div class="mdn-slider" [ngStyle]="{'min-heigth': finalHeight}">
+  <div class = "mdn-slider__btns">
+    <i class = "fa fa-chevron-circle-left" (click)="setBack()"></i>
+    <i class = "fa fa-chevron-circle-right" (click)="setNext()"></i>
+  </div>
+  <div class="mdn-slider__content">
+    <ng-container *ngFor="let section of items">
+      <div class="mdn-slider__content-item" [ngStyle]="{'backgriund-image':'url(' + section.image + ')', 'margin-left': section.marginLeft + '%'}">
+        <h1> {{section.title.first}} <span> {{section.title.second}} </span></h1>
+        <p>{{section.subtitle}}</p>
+      </div>
+    </ng-container>
+  </div>
+  <div class="mdn-slider__steps">
+    <div class="mdn-slider__steps-step
+                mdn-slider__steps-step-{{currentPosition === item.id ? 'activate' : ''}}"
+         *ngFor="let item of items" (click)="setCurrentPosition(item.id)">
+    </div>
+  </div>
 </div>
 <div class="description-container">
   <div class="text-container">
