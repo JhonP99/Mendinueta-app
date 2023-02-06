@@ -7,9 +7,9 @@
 </div>
 <div class="section-container">
   <section class="cardsSection">
-    <div class="card"><app-card></app-card></div>
-    <div class="card"><app-card></app-card></div>
-    <div class="card"><app-card></app-card></div>
+    <div class="card" *ngFor="let input of propertiesInput">
+      <app-card [properties]="input"></app-card>
+    </div>
   </section>
 </div>
 

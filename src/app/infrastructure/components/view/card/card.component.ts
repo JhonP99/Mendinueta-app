@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {CardProperties} from "../../../../application/models/card-properties.model";
+import {CardPropertiesModel} from "../../../../application/models/card-properties.model";
 
 @Component({
   selector: 'app-card',
@@ -7,7 +7,7 @@ import {CardProperties} from "../../../../application/models/card-properties.mod
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-  @Input() properties!: CardProperties;
+  @Input() properties!: CardPropertiesModel;
   constructor() { }
 
   ngOnInit(): void {

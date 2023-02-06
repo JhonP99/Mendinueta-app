@@ -1,9 +1,10 @@
-<div>
+<div class="card-container" *ngIf="properties">
   <div class="image">
     <img [src]="properties.imageUrl">
   </div>
   <div class="card-properties">
-    <span class="card-title">titulo{{properties.title}}</span>
-    <span class="card-properties">descrjdvnakjdvnjadbnvkjsdnvkjnsdkjvns nskjdnvks jsdkv skv{{properties.description}}</span>
+    <span class="card-properties__title">{{properties.title}}</span>
+    <span class="card-properties__description">{{properties.description}}</span>
+    <a href='/{{properties.link}}' class="card-properties__link">Ver mas</a>
   </div>
 </div>

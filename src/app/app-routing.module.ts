@@ -4,12 +4,14 @@ import { StartComponent } from "./infrastructure/components/interactive/start/st
 import {WeddingComponent} from "./infrastructure/components/interactive/wedding/wedding.component";
 import {FifteenComponent} from "./infrastructure/components/interactive/fifteen/fifteen.component";
 import {ContactComponent} from "./infrastructure/components/interactive/contact/contact.component";
+import {MaternityComponent} from "./infrastructure/components/interactive/maternity/maternity.component";
 
 const routes: Routes = [
   { path: 'start', component: StartComponent },
   { path: '', pathMatch: "full", redirectTo: 'start'},
   { path: 'bodas', component: WeddingComponent},
   { path: 'quinceanhos', component: FifteenComponent},
+  { path:'maternidad', component: MaternityComponent},
   { path: 'contacto', component: ContactComponent}
 ];
 

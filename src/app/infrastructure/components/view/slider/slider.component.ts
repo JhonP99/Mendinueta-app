@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SliderComponent implements OnInit {
   public images = [
-    'https://as1.ftcdn.net/v2/jpg/02/83/46/46/1000_F_283464691_hwArzj9PzTURj2AYpVaCIviRKPKp8T1f.jpg',
-    'http://drive.google.com/uc?export=view&id=1y_7W_jg9KYh3krrBTKQgHL2lfSAvkUko',
-    'https://as2.ftcdn.net/v2/jpg/02/60/15/47/1000_F_260154760_bpalKx72q1OrHgn2ocM8PEAsPnjECjse.jpg'
+    'https://static.wixstatic.com/media/1c35ce_36e1462c6a8049a5a3998b02a9ae0d63~mv2.jpg/v1/fill/w_617,h_383,al_c,q_80,usm_0.66_1.00_0.01/1c35ce_36e1462c6a8049a5a3998b02a9ae0d63~mv2.jpg',
+    'https://static.wixstatic.com/media/1c35ce_8de87d0cfad14f74b2c0d2cb17b0af38~mv2.jpg/v1/fill/w_617,h_383,al_c,q_80,usm_0.66_1.00_0.01/1c35ce_8de87d0cfad14f74b2c0d2cb17b0af38~mv2.jpg',
+    'https://static.wixstatic.com/media/1c35ce_b803c3428f834953bb6f0a75a27d7c32~mv2.jpg/v1/fill/w_617,h_383,al_c,q_80,usm_0.66_1.00_0.01/1c35ce_b803c3428f834953bb6f0a75a27d7c32~mv2.jpg'
   ];
   constructor() { }
 
