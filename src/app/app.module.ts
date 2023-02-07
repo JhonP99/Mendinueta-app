@@ -16,6 +16,8 @@ import { WeddingComponent } from './infrastructure/components/interactive/weddin
 import { FifteenComponent } from './infrastructure/components/interactive/fifteen/fifteen.component';
 import { ContactComponent } from './infrastructure/components/interactive/contact/contact.component';
 import { CardComponent } from './infrastructure/components/view/card/card.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MaternityComponent } from './infrastructure/components/interactive/maternity/maternity.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,14 @@ import { CardComponent } from './infrastructure/components/view/card/card.compon
     WeddingComponent,
     FifteenComponent,
     ContactComponent,
-    CardComponent
+    CardComponent,
+    MaternityComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

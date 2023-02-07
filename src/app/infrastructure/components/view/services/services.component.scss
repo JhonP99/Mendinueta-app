@@ -1,9 +1,12 @@
 .container, .section-container {
   display: flex;
   align-content: center;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.container {
+  flex-direction: column;
 }
 
 .text-container {
@@ -39,7 +42,7 @@
 
 .card {
   background-color: white;
-  height: 600px;
+  height: 550px;
   margin: 0 2%;
   width: 25%;
 }
