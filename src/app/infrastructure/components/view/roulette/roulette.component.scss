@@ -9,6 +9,7 @@
 .titleContainer {
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .title, .description {
@@ -16,6 +17,7 @@
 }
 
 .title {
+  font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
 }
