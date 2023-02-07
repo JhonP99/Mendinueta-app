@@ -1,0 +1,24 @@
+.container-global {
+  background: #b2b2b2;
+  display: flex;
+  justify-content: center;
+
+  &__card {
+    background: white;
+    display: flex;
+    margin: 2.5rem 0;
+    width: 80%;
+  }
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  font-family: Raleway, sans-serif;
+
+  &__title {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+}
