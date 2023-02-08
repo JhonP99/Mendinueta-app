@@ -18,6 +18,7 @@ import { ContactComponent } from './infrastructure/components/interactive/contac
 import { CardComponent } from './infrastructure/components/view/card/card.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaternityComponent } from './infrastructure/components/interactive/maternity/maternity.component';
+import { CardServicesComponent } from './infrastructure/components/view/card-services/card-services.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MaternityComponent } from './infrastructure/components/interactive/mate
     FifteenComponent,
     ContactComponent,
     CardComponent,
-    MaternityComponent
+    MaternityComponent,
+    CardServicesComponent
   ],
   imports: [
     BrowserModule,

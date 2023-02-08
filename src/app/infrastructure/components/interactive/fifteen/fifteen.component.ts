@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicesCardModel } from "../../../../application/models/services.card.model";
+import { CARD_FIFTEEN_CONSTANT } from "../../../../domain/constants/constants";
 
 @Component({
   selector: 'app-fifteen',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fifteen.component.scss']
 })
 export class FifteenComponent implements OnInit {
-
-  constructor() { }
+  propertiesInput:ServicesCardModel = CARD_FIFTEEN_CONSTANT;
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
