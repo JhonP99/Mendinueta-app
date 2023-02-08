@@ -1,4 +1,9 @@
 <div class="grid-container">
-  <div class="grid-container__element1"> element</div>
-  <div class="grid-container__element2"> element</div>
+  <div class="grid-container__elements" *ngFor="let url of urls">
+    <img [src]="url">
+  </div>
+</div>
+<div>
+  <img src="https://static.wixstatic.com/media/1c35ce_a7794d57f71248248ec30a14251efe7c~mv2.jpg/v1/fit/w_776,h_211,q_90/1c35ce_a7794d57f71248248ec30a14251efe7c~mv2.jpg">
+  <img src="https://static.wixstatic.com/media/1c35ce_8b2109a36bc54f28a79ceee763b80e9e~mv2.jpg/v1/fit/w_776,h_211,q_90/1c35ce_8b2109a36bc54f28a79ceee763b80e9e~mv2.jpg">
 </div>

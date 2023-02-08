@@ -9,6 +9,7 @@ import {CARD_WEDDING_SERVICE_CONSTANT} from "../../../../domain/constants/consta
 })
 export class WeddingComponent implements OnInit {
   propertiesInput: ServicesCardModel = CARD_WEDDING_SERVICE_CONSTANT;
+
   constructor() { }
 
   ngOnInit(): void {
