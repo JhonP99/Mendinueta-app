@@ -1,11 +1,11 @@
-.container, .section-container {
+.container-global, .section-container {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.container {
+.container-global {
   flex-direction: column;
 }
 
@@ -40,11 +40,22 @@
   width: 95%;
 }
 
-.card {
+.card-div {
   background-color: white;
   height: 550px;
   margin: 0 2%;
   width: 25%;
 }
 
+@media (max-width: 767.98px) {
+  .cardsSection {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card-div {
+    margin: 2% 0;
+    width: 80%;
+  }
+}
 
