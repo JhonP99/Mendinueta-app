@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StartComponent } from './infrastructure/components/interactive/start/start.component';
+import { PhotographyComponent } from './infrastructure/components/interactive/photography/photography.component';
 import { FooterComponent } from './infrastructure/components/interactive/footer/footer.component';
 import { HeaderComponent } from './infrastructure/components/interactive/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,11 +19,12 @@ import { CardComponent } from './infrastructure/components/view/card/card.compon
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaternityComponent } from './infrastructure/components/interactive/maternity/maternity.component';
 import { CardServicesComponent } from './infrastructure/components/view/card-services/card-services.component';
+import { StartComponent } from './infrastructure/components/interactive/start/start.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent,
+    PhotographyComponent,
     FooterComponent,
     HeaderComponent,
     SliderComponent,
@@ -36,7 +37,8 @@ import { CardServicesComponent } from './infrastructure/components/view/card-ser
     ContactComponent,
     CardComponent,
     MaternityComponent,
-    CardServicesComponent
+    CardServicesComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,

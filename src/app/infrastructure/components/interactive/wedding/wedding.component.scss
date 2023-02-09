@@ -11,5 +11,15 @@
 
 .grid-wedding {
   background: #b2b2b2;
+  padding: 1% 0;
+}
+
+@media (max-width: 767.98px) {
+  .photos-container {
+    flex-direction: column;
+  }
+  .photos-container img {
+    padding: 2% 0;
+  }
 }
 

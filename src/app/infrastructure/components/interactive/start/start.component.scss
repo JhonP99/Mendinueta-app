@@ -1,13 +1,38 @@
-app-header {
-  float: top;
-  top: 0;
-  left: 0;
+::ng-deep.body-header {
+  background: unset !important;
+}
+
+.sect {
   width: 100%;
+  min-height: 500px;
 }
 
-.roulette {
-  background: rgb(60, 60, 60);
-  color: white;
-  padding-bottom: 10%;
+#sect1 {
+  background-color: #3333337d;
+  color: #fff;
 }
 
+#sect1 {
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+}
+h1 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+h2 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
