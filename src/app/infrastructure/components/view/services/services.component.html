@@ -1,16 +1,7 @@
-<div class="container-global">
-  <div class="text-container">
-    <span class="text">Influenciados en plasmar imágenes que reflejen imborrables momentos, nuestras fotos están planeadas minuciosamente, desde los tonos, los ángulos hasta los colores. Todo eso se logra  queriendo retratar muchos de tus momentos mágicos, y es allí donde nuestra creatividad y buen trabajo empieza.</span>
-    <span class="text">Nos encantaría contar tu historia desde nuestro lente, cubrir cada detalle de ese día, para que no solo sea un recuerdo fotográfico, sino que puedan tener en sus manos una pieza de arte.</span>
+<section class="global-container">
+  <span class="text">Servicios</span>
+  <div class="card-section" >
+    <app-card *ngFor="let card of cards" [card]="card"></app-card>
   </div>
-  <span class="services">Servicios:</span>
-</div>
-<div class="section-container">
-  <section class="cardsSection">
-    <div class="card-div" *ngFor="let input of propertiesInput">
-      <app-card [properties]="input"></app-card>
-    </div>
-  </section>
-</div>
-
+</section>
 

@@ -1,28 +1,5 @@
-.card-container, .card-properties {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  &__title {
-    font-size: 2rem;
-    font-family: "avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy";
-  }
-  &__description {
-    text-align: center;
-    font-family: "avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy";
-    padding: 0 15px;
-  }
-  &__link {
-    text-decoration: none;
-    color: black;
-  }
-  &__link:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-}
+
 
 @media (max-width: 768.92px) {
-  .card-container {
-    padding-top: 5%;
-  }
+
 }

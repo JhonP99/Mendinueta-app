@@ -20,6 +20,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaternityComponent } from './infrastructure/components/interactive/maternity/maternity.component';
 import { CardServicesComponent } from './infrastructure/components/view/card-services/card-services.component';
 import { StartComponent } from './infrastructure/components/interactive/start/start.component';
+import { DescriptionComponent } from './infrastructure/components/view/description/description.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { StartComponent } from './infrastructure/components/interactive/start/st
     CardComponent,
     MaternityComponent,
     CardServicesComponent,
-    StartComponent
+    StartComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
