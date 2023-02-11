@@ -10,7 +10,6 @@ export class StartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("si estoy iniciando")
   }
 
 }

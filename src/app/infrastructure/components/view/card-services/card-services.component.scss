@@ -22,3 +22,13 @@
     padding-bottom: 1rem;
   }
 }
+
+@media (max-width: 767.98px) {
+  .container-global__card {
+    flex-direction: column;
+    align-items: center;
+    &__photo {
+      padding-top: 2rem;
+    }
+  }
+}

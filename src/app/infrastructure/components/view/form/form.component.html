@@ -1,33 +1,33 @@
 <div class="container-global">
-  <div class="container">
+  <div class="container-inside">
     <div class="container-L">
-      <span class="title">CONTÁCTANOS</span>
+      <a href="/contacto"><span class="title">CONTÁCTANOS</span></a>
       <span class="text">Carrera 12 No. 9a - 32 Barrio San Joaquín</span>
       <span class="text"> Valledupar, Cesar - Colombia</span>
       <span class="text email">amendinuetafoto@gmail.com</span>
       <span class="text">+ 57 316 066 1177</span>
     </div>
     <div class="container-R">
-      <form>
+      <form action="https://formsubmit.co/info@andremendinueta.com" method="POST">
         <div class="formTop">
           <div>
             <label for="name" class="text"> Name* </label>
-            <input class="input" id="name" type="text" formControlName="name" required placeholder="Ingesa tu nombre">
+            <input class="input" id="name" name="Name" type="text"  required placeholder="Ingesa tu nombre">
             <label for="email" class="text"> Email*</label>
-            <input class="input" id="email" type="text" formControlName="email" required placeholder="Ingesa tu email">
+            <input class="input" id="email" name="Email" type="text"  required placeholder="Ingesa tu email">
           </div>
           <div>
             <label for="phone" class="text">Teléfono</label>
-            <input class="input" id="phone" type="text" formControlName="phone" placeholder="Ingesa tu numero de telefono">
+            <input class="input" id="phone" name="Telefono" type="text" placeholder="Ingesa tu numero de telefono">
             <label for="direction" class="text">Dirección</label>
-            <input class="input" id="direction" type="text" formControlName="direction" placeholder="Ingresa tu direccion">
+            <input class="input" id="direction" name="Direccion" type="text" placeholder="Ingresa tu direccion">
           </div>
         </div>
         <div class="formBotton">
           <label for="asunto" class="text">Asunto</label>
-          <input class="inputAsunto" id="asunto" type="text" formControlName="asunto" placeholder="Escribe el asunto">
+          <input class="inputAsunto" id="asunto" name="Asunto" type="text" placeholder="Escribe el asunto">
           <label for="messaje" class="text">Mensaje</label>
-          <textarea class="textArea" name="messaje" id="messaje" placeholder="Escribe tu mensaje aqui..."></textarea>
+          <textarea class="textArea" name="Mensaje" id="messaje" placeholder="Escribe tu mensaje aqui..."></textarea>
         </div>
         <button class="button" type="submit">Enviar</button>
       </form>

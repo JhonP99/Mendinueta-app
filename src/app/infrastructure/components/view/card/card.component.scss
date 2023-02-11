@@ -21,6 +21,8 @@
   }
 }
 
-.card-properties {
-  height: 30%;
+@media (max-width: 768.92px) {
+  .card-container {
+    padding-top: 5%;
+  }
 }
