@@ -7,11 +7,14 @@
 .text {
   font-size: 3rem;
   line-height:3rem;
+  margin-bottom: 3%;
 }
 
 .card-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 

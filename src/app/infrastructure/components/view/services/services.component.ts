@@ -14,19 +14,19 @@ export class ServicesComponent implements OnInit {
     this.cards =[
       {
         title:"Marketing",
-        urlImage:""
+        urlImage:"https://images.pexels.com/photos/7681671/pexels-photo-7681671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
-        title:"Marketing",
-        urlImage:""
+        title:"Social Media",
+        urlImage:"https://images.pexels.com/photos/13399448/pexels-photo-13399448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
-        title:"Marketing",
-        urlImage:""
+        title:"Paginas Web",
+        urlImage:"https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
-        title:"Marketing",
-        urlImage:""
+        title:"Diseño de marca",
+        urlImage:"https://images.pexels.com/photos/3585001/pexels-photo-3585001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
     ]
   }
