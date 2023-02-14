@@ -1,8 +1,11 @@
 <div class="card text-white" *ngIf="card">
-  <img class="card-img " [src]="card.urlImage" alt="Card image">
-  <div class="card-img-overlay scale-up-center">
-    <h2 class="card-title">{{card.title}}</h2>
-  </div>
+  <a [href]="card.url">
+    <img class="card-img " [src]="card.urlImage" alt="Card image">
+    <div class="card-img-overlay scale-up-center">
+      <h2 class="card-title">{{card.title}}</h2>
+    </div>
+  </a>
 </div>
+
 
 

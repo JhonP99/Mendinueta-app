@@ -12,14 +12,15 @@ import { RouletteComponent } from './infrastructure/components/view/roulette/rou
 import { ServicesComponent } from './infrastructure/components/view/services/services.component';
 import { GridComponent } from './infrastructure/components/view/grid/grid.component';
 import { FormComponent } from './infrastructure/components/view/form/form.component';
-import { WeddingComponent } from './infrastructure/components/interactive/wedding/wedding.component';
-import { FifteenComponent } from './infrastructure/components/interactive/fifteen/fifteen.component';
 import { ContactComponent } from './infrastructure/components/interactive/contact/contact.component';
 import { CardComponent } from './infrastructure/components/view/card/card.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MaternityComponent } from './infrastructure/components/interactive/maternity/maternity.component';
 import { StartComponent } from './infrastructure/components/interactive/start/start.component';
 import { DescriptionComponent } from './infrastructure/components/view/description/description.component';
+import { MarketingComponent } from './infrastructure/components/interactive/marketing/marketing.component';
+import { WebDevComponent } from './infrastructure/components/interactive/web-dev/web-dev.component';
+import { SMediaComponent } from './infrastructure/components/interactive/smedia/smedia.component';
+import { BrandDesingComponent } from './infrastructure/components/interactive/brand-desing/brand-desing.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +33,14 @@ import { DescriptionComponent } from './infrastructure/components/view/descripti
     ServicesComponent,
     GridComponent,
     FormComponent,
-    WeddingComponent,
-    FifteenComponent,
     ContactComponent,
     CardComponent,
-    MaternityComponent,
     StartComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    MarketingComponent,
+    WebDevComponent,
+    SMediaComponent,
+    BrandDesingComponent
   ],
   imports: [
     BrowserModule,
