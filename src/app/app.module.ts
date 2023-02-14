@@ -21,6 +21,8 @@ import { MarketingComponent } from './infrastructure/components/interactive/mark
 import { WebDevComponent } from './infrastructure/components/interactive/web-dev/web-dev.component';
 import { SMediaComponent } from './infrastructure/components/interactive/smedia/smedia.component';
 import { BrandDesingComponent } from './infrastructure/components/interactive/brand-desing/brand-desing.component';
+import { ServicesTitleComponent } from './infrastructure/components/view/services-title/services-title.component';
+import { ServicesBodyComponent } from './infrastructure/components/view/services-body/services-body.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { BrandDesingComponent } from './infrastructure/components/interactive/br
     MarketingComponent,
     WebDevComponent,
     SMediaComponent,
-    BrandDesingComponent
+    BrandDesingComponent,
+    ServicesTitleComponent,
+    ServicesBodyComponent
   ],
   imports: [
     BrowserModule,

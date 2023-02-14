@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./web-dev.component.scss']
 })
 export class WebDevComponent implements OnInit {
-
+  protected title:string = 'Desarrollo Web';
   constructor() { }
 
   ngOnInit(): void {

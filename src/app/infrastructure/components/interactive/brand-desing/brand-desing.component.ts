@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./brand-desing.component.scss']
 })
 export class BrandDesingComponent implements OnInit {
+  protected title:string = 'Diseño de marca';
 
   constructor() { }
 

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./smedia.component.scss']
 })
 export class SMediaComponent implements OnInit {
+  protected title:string = 'Social Media';
 
   constructor() { }
 

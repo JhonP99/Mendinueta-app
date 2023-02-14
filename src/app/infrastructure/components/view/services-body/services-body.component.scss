@@ -1,0 +1,28 @@
+.container-flex {
+  display: flex;
+}
+
+.container-videos {
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 50%;
+}
+
+.container-videos video {
+  width: 100%;
+}
+
+.container-videos span {
+  font-family: "Roboto Slab";
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.container-description {
+  padding: 3% 2%;
+  width: 50%;
+}
+
+.container-description span, span h2 {
+  font-family: "Roboto Slab";
+}

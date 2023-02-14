@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./marketing.component.scss']
 })
 export class MarketingComponent implements OnInit {
+  protected title:string = 'Marketing';
 
   constructor() { }
 
