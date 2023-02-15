@@ -4,6 +4,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  &__links {
+    text-decoration: none;
+    color: black;
+  }
+  &__links:hover {
+    color: rgba(255, 0, 0, 0.64);
+    cursor: pointer;
+  }
 }
 
 .span1 {
@@ -15,7 +23,7 @@
 .span2 {
   font-size: 0.9rem;
   font-family: "Avenir LT Std 45 Book";
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .span3 {
@@ -23,3 +31,13 @@
   font-family: "Avenir LT Std 45 Book";
   padding-bottom: 1.5rem;
 }
+
+.icons-container {
+  display: flex;
+}
+
+.icons {
+  height: 3rem;
+  width: 3rem;
+}
+

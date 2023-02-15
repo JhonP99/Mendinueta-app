@@ -1,5 +1,6 @@
-export interface ServicesCardModel {
+
+export interface CardServiceModel {
   title:string,
-  description:string,
-  imageUrl:string
+  urlImage:string,
+  url:string
 }

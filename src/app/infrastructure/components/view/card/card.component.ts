@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {CardPropertiesModel} from "../../../../application/models/card-properties.model";
+import {CardServiceModel} from "../../../../application/models/services.card.model";
+import * as url from "url";
 
 @Component({
   selector: 'app-card',
@@ -7,10 +8,12 @@ import {CardPropertiesModel} from "../../../../application/models/card-propertie
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-  @Input() properties!: CardPropertiesModel;
+  @Input() card!:CardServiceModel;
+  cardStyle!:string;
   constructor() { }
 
   ngOnInit(): void {
+    this.cardStyle = `background: url(${this.card.urlImage})`
   }
 
 }

@@ -1,10 +1,11 @@
-<div class="card-container" *ngIf="properties">
-  <div class="image">
-    <img [src]="properties.imageUrl">
-  </div>
-  <div class="card-properties">
-    <span class="card-properties__title">{{properties.title}}</span>
-    <span class="card-properties__description">{{properties.description}}</span>
-    <a href='/{{properties.link}}' class="card-properties__link">Ver mas</a>
-  </div>
+<div class="card text-white" *ngIf="card">
+  <a [href]="card.url">
+    <img class="card-img " [src]="card.urlImage" alt="Card image">
+    <div class="card-img-overlay scale-up-center">
+      <h2 class="card-title">{{card.title}}</h2>
+    </div>
+  </a>
 </div>
+
+
+

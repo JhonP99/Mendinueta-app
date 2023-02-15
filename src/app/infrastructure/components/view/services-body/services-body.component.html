@@ -1,0 +1,17 @@
+<div class="container-flex" *ngIf="properties">
+  <div class="container-videos">
+    <video src="https://carontestudio.com/img/f4.mp4" autoplay poster="https://carontestudio.com/img/contacto.jpg"></video>
+    <span> Metricas </span>
+  </div>
+  <div class="container-description">
+    <span class="container-description__text">
+      <h1>{{properties.subtitle}}</h1>
+      {{properties.description}}
+      <h4 class="list-of-components">{{properties.listTitle}} </h4>
+      <ul>
+        <li *ngFor="let item of properties.listItem">{{item}}</li>
+        <li><a class="portafolio" [href]="properties.portafolio" target="_blank">Ver Mas</a></li>
+      </ul>
+    </span>
+  </div>
+</div>
