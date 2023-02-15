@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {BodyServiceModel} from "../../../../application/models/body-service.model";
+import {BRAND_DESING} from "../../../../domain/constants/constants";
 
 @Component({
   selector: 'app-brand-desing',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrandDesingComponent implements OnInit {
   protected title:string = 'Diseño de marca';
+  protected BDesingProperties:BodyServiceModel = BRAND_DESING;
 
   constructor() { }
 

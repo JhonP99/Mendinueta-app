@@ -26,3 +26,33 @@
 .container-description span, span h2 {
   font-family: "Roboto Slab";
 }
+
+.list-of-components {
+  margin-top: 1%;
+}
+
+.portafolio {
+  text-decoration: none;
+  color: black;
+}
+
+.portafolio:hover {
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.64);
+  transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .container-description, .container-videos {
+    width: 100%;
+  }
+
+  .container-videos {
+    padding: 2% ;
+  }
+
+}

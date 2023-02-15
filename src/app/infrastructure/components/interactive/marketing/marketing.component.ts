@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {BodyServiceModel} from "../../../../application/models/body-service.model";
+import {MARKETING} from "../../../../domain/constants/constants";
 
 @Component({
   selector: 'app-marketing',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MarketingComponent implements OnInit {
   protected title:string = 'Marketing';
+  protected marketingProperties: BodyServiceModel = MARKETING;
 
   constructor() { }
 

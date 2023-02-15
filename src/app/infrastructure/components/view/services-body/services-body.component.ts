@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {BodyServiceModel} from "../../../../application/models/body-service.model";
 
 @Component({
   selector: 'app-services-body',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services-body.component.scss']
 })
 export class ServicesBodyComponent implements OnInit {
+  @Input() properties!:BodyServiceModel;
+  //
 
   constructor() { }
 
